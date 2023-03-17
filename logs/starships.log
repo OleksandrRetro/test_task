@@ -1,0 +1,3 @@
+03-17 18:14 Starships Route INFO     Route [/starships] with response code [200] was called.
+03-17 18:14 Starships Route INFO     Route [/starships/1] with response code [200] was called.
+03-17 18:14 Starships Route ERROR    Route [/starships/100] with response code [404] was called.

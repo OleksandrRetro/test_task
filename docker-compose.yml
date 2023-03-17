@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    command: uvicorn srv.main:srv --reload --workers 1 --host 0.0.0.0 --port 8000
+    volumes:
+      - .:/usr/srv/
+    ports:
+      - 8080:8000

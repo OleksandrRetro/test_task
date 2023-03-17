@@ -1,0 +1,3 @@
+03-17 18:14 People Route INFO     Route [/people] with response code [200] was called.
+03-17 18:14 People Route INFO     Route [/people/1] with response code [200] was called.
+03-17 18:14 People Route ERROR    Route [/people/1978] with response code [404] was called.
