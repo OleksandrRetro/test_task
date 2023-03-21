@@ -1,4 +1,6 @@
 from http import HTTPStatus
+from random import randint
+from time import sleep
 
 from fastapi import APIRouter, HTTPException
 
@@ -17,6 +19,7 @@ log = SrvLogger().create_logger("People Route", "peoples.log")
 
 @router.get(ROUTE)
 async def get_peoples():
+    sleep(randint(1, 5))
     try:
         response = FileUtils().get_all_files_from_dir(RESPONSE_PATH)
         log.info(LOG_MSG_TPL.format(route=ROUTE, status_code=HTTPStatus.OK))
@@ -28,6 +31,7 @@ async def get_peoples():
 
 @router.get(ROUTE + "/{id}/")
 async def get_people_by_id(id: int):
+    sleep(randint(1, 5))
     try:
         response = FileUtils().read_file(f"{RESPONSE_PATH}people_{id}.json")
         log.info(LOG_MSG_TPL.format(route=f"{ROUTE}/{id}", status_code=HTTPStatus.OK))
