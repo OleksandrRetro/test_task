@@ -4,3 +4,6 @@ uvicorn
 pytest
 httpx
 starlette
+robotframework
+robotframework-requests
+robotframework-jsonlibrary
