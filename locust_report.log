@@ -1,0 +1,17 @@
+[2023-03-21 19:40:43,335] 54a694c9f72f/WARNING/locust.main: System open file limit '1024' is below minimum setting '10000'.
+It's not high enough for load testing, and the OS didn't allow locust to increase it by itself.
+See https://github.com/locustio/locust/wiki/Installation#increasing-maximum-number-of-open-files-limit for more info.
+[2023-03-21 19:40:43,335] 54a694c9f72f/INFO/locust.main: Run time limit set to 200 seconds
+[2023-03-21 19:40:43,336] 54a694c9f72f/INFO/locust.main: Starting Locust 2.15.1
+[2023-03-21 19:40:43,337] 54a694c9f72f/INFO/locust.runners: Ramping to 5 users at a rate of 10.00 per second
+[2023-03-21 19:40:43,338] 54a694c9f72f/INFO/locust.runners: All users spawned: {"LocustPerfTest": 5} (5 total users)
+[2023-03-21 19:44:02,937] 54a694c9f72f/INFO/locust.main: --run-time limit reached, shutting down
+[2023-03-21 19:44:03,019] 54a694c9f72f/INFO/locust.main: writing html report to file: locust_html.html
+[2023-03-21 19:44:03,020] 54a694c9f72f/INFO/locust.main: Shutting down (exit code 1)
+[2023-03-21 21:59:33,656] test-VirtualBox/INFO/locust.main: Run time limit set to 200 seconds
+[2023-03-21 21:59:33,662] test-VirtualBox/INFO/locust.main: Starting Locust 2.15.1
+[2023-03-21 21:59:33,664] test-VirtualBox/INFO/locust.runners: Ramping to 500 users at a rate of 10.00 per second
+[2023-03-21 22:00:22,806] test-VirtualBox/INFO/locust.runners: All users spawned: {"LocustPerfTest": 500} (500 total users)
+[2023-03-21 22:02:53,445] test-VirtualBox/INFO/locust.main: --run-time limit reached, shutting down
+[2023-03-21 22:02:53,580] test-VirtualBox/INFO/locust.main: writing html report to file: locust_html.html
+[2023-03-21 22:02:53,582] test-VirtualBox/INFO/locust.main: Shutting down (exit code 1)
